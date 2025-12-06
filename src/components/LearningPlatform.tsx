@@ -256,7 +256,11 @@ const coursesData: Chapter[] = [
   },
 ];
 
-export default function LearningPlatform() {
+interface LearningPlatformProps {
+  onNavigate?: (page: 'home' | 'learning' | 'shop') => void;
+}
+
+export default function LearningPlatform({ onNavigate }: LearningPlatformProps) {
   const [selectedLesson, setSelectedLesson] = useState<Lesson>(coursesData[0].lessons[0]);
   const [currentChapter, setCurrentChapter] = useState<Chapter>(coursesData[0]);
   const [sidebarOpen, setSidebarOpen] = useState(true);
@@ -336,7 +340,12 @@ export default function LearningPlatform() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
               </button>
-              <a href="/" className="font-extrabold text-2xl tracking-tight text-brand-blue">DBSK</a>
+              <button 
+                onClick={() => onNavigate?.('home')}
+                className="font-extrabold text-2xl tracking-tight text-brand-blue hover:opacity-80 transition cursor-pointer"
+              >
+                DBSK
+              </button>
               <span className="text-slate-400">|</span>
               <h1 className="text-lg font-bold text-slate-700">Learning Platform</h1>
             </div>

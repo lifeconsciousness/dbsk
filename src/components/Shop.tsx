@@ -20,7 +20,7 @@ const products: Product[] = [
     id: 1,
     title: 'DBSK Starter Kit',
     price: 149.99,
-    image: '/dron kit tech.jpg',
+    image: './dron kit tech.jpg',
     description: 'The complete modular drone building experience. Includes frame, motors, flight controller, and access to the learning app.',
     features: ['No Soldering Required', 'Includes Battery & Charger'],
     badge: 'Best Seller'
@@ -29,7 +29,7 @@ const products: Product[] = [
     id: 2,
     title: 'Classroom Education Pack',
     price: 1250.00,
-    image: '/unnamed-2.jpg',
+    image: './unnamed-2.jpg',
     description: "The ultimate STEM solution. 10 complete kits plus a comprehensive teacher's guide and lesson plans.",
     features: ['10x Drone Kits', "Teacher Curriculum Guide", 'Spare Parts Box Included'],
     ribbonLabel: 'SCHOOLS'
@@ -38,7 +38,7 @@ const products: Product[] = [
     id: 3,
     title: 'Crash Pack (Spare Parts)',
     price: 19.99,
-    image: '/spare set drone.jpg',
+    image: './spare set drone.jpg',
     description: "Don't let a crash stop the fun. Snap-on replacements for arms and propellers.",
     features: ['4x Snap-fit Arms', '8x Propellers', 'Replacement Screws']
   }
