@@ -6,6 +6,7 @@ interface Lesson {
   duration: string;
   videoUrl: string;
   completed: boolean;
+  image?: string;
 }
 
 interface Chapter {
@@ -36,6 +37,18 @@ export default function VideoPlayer({ lesson, chapter, onPrevious: _onPrevious, 
 
   return (
     <div className="bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden">
+      {/* Image Section (if present) */}
+      {lesson.image && (
+        <div className="p-6 bg-white border-b border-slate-200">
+          <h3 className="text-lg font-semibold text-slate-900 mb-4">{lesson.title}</h3>
+          <img 
+            src={lesson.image} 
+            alt={lesson.title}
+            className="w-full rounded-lg border border-slate-200 shadow-sm"
+          />
+        </div>
+      )}
+      
       {/* Video Container */}
       <div className="relative bg-slate-900 aspect-video">
         {lesson.videoUrl.endsWith('.mov') || lesson.videoUrl.endsWith('.mp4') ? (

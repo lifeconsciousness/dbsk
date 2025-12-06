@@ -20,12 +20,14 @@ interface Lesson {
   completed: boolean;
   description?: string;
   learningPoints?: string[];
+  image?: string;
 }
 
 interface LessonDetail extends Lesson {
   description: string;
   learningPoints: string[];
   notes?: string;
+  image?: string;
 }
 
 const lessonsDetails: Record<number, LessonDetail> = {
@@ -55,7 +57,8 @@ const lessonsDetails: Record<number, LessonDetail> = {
       "Battery safety and LiPo handling procedures",
       "Workspace safety when building electronics",
       "Pre-flight inspection checklist"
-    ]
+    ],
+    image: "./safety.png"
   },
   3: {
     id: 3,
@@ -69,7 +72,8 @@ const lessonsDetails: Record<number, LessonDetail> = {
       "Motor specifications and types (brushless vs brushed)",
       "Flight controller basics and sensor integration",
       "Electronic Speed Controllers (ESCs) explained"
-    ]
+    ],
+    image: "./100wiring.png"
   },
   4: {
     id: 4,
