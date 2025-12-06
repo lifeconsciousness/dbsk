@@ -29,8 +29,8 @@ export default function Features() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
               </svg>
             </div>
-            <h3 className="text-xl font-bold text-brand-dark mb-2">Legal & Safe</h3>
-            <p className="text-slate-500">Don't fear the fines. We integrate EU Drone Class A1/A3 training directly into the flight app.</p>
+            <h3 className="text-xl font-bold text-brand-dark mb-2">Classroom-Safe & Legal</h3>
+            <p className="text-slate-500">Safe for educational environments with no dangerous tools or heat sources. EU Drone Class A1/A3 training integrated directly into the flight app ensures compliance from day one.</p>
           </div>
 
           <div className="text-center">

@@ -7,7 +7,7 @@ export default function Hero() {
     <div className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-brand-dark mb-6">
-          Your Gateway to <span className="text-brand-blue">Drone & Robotics</span>
+          Your Gateway to <span className="text-brand-blue">Drones & Robotics</span>
         </h1>
         <p className="mt-4 max-w-2xl mx-auto text-xl text-slate-500 mb-10">
           No experience needed. No soldering required. Just plug and learn.<br />
