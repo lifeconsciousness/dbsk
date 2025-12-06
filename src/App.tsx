@@ -48,7 +48,7 @@ function App() {
           <Waitlist />
         </>
       ) : (
-        <LearningPlatform />
+        <LearningPlatform onNavigate={setCurrentPage} />
       )}
     </div>
   )
