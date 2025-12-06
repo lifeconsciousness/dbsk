@@ -30,7 +30,7 @@ export default function Features() {
               </svg>
             </div>
             <h3 className="text-xl font-bold text-brand-dark mb-2">Classroom-Safe & Legal</h3>
-            <p className="text-slate-500">Safe for educational environments with no dangerous tools or heat sources. EU Drone Class A1/A3 training integrated directly into the flight app ensures compliance from day one.</p>
+            <p className="text-slate-500">Safe for educational environments. The drone's weight is under 250 grams means it is perfectly fine to use according to EU regulations.</p>
           </div>
 
           <div className="text-center">

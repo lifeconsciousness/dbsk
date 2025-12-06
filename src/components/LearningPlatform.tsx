@@ -31,7 +31,7 @@ interface LessonDetail extends Lesson {
 const lessonsDetails: Record<number, LessonDetail> = {
   1: {
     id: 1,
-    title: "Unboxing Your DBSK Kit",
+    title: "Introduction to DBSK Kit",
     duration: "3 min",
     videoUrl: "./drone1.mp4",
     completed: true,
