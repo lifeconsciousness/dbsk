@@ -23,7 +23,7 @@ interface VideoPlayerProps {
   isLastLesson?: boolean;
 }
 
-export default function VideoPlayer({ lesson, chapter, onPrevious, onNext, onMarkComplete, isFirstLesson, isLastLesson }: VideoPlayerProps) {
+export default function VideoPlayer({ lesson, chapter, onPrevious: _onPrevious, onNext: _onNext, onMarkComplete: _onMarkComplete, isFirstLesson: _isFirstLesson, isLastLesson: _isLastLesson }: VideoPlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef<HTMLVideoElement | null>(null);
 

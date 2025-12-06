@@ -34,7 +34,7 @@ export default function HowItWorks() {
             </div>
           </div>
           <div>
-            <img src="/unnamed-4.jpg" 
+            <img src="./unnamed-4.jpg" 
                  alt="DBSK Components Knolling" 
                  className="rounded-lg shadow-xl rotate-1 hover:rotate-0 transition duration-500 border-4 border-white" />
           </div>

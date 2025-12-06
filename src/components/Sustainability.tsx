@@ -4,7 +4,7 @@ export default function Sustainability() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="order-2 lg:order-1">
-            <img src="/spare set drone.jpg" 
+            <img src="./spare set drone.jpg" 
                  alt="DBSK Spare Parts" 
                  className="rounded-lg shadow-lg mx-auto w-3/4 hover:scale-105 transition duration-500" />
           </div>

@@ -74,7 +74,7 @@ export default function CourseSidebar({ chapters, selectedLesson, onLessonSelect
 
             {!chapter.locked && (
               <div className="bg-slate-50">
-                {chapter.lessons.map((lesson, index) => (
+                {chapter.lessons.map((lesson, _index) => (
                   <button
                     key={lesson.id}
                     onClick={() => onLessonSelect(lesson, chapter)}

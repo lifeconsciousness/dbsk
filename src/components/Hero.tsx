@@ -27,7 +27,7 @@ export default function Hero() {
             {!isPlaying ? (
               <>
                 <img 
-                  src="/dron kit tech.jpg" 
+                  src="./dron kit tech.jpg" 
                   alt="DBSK Starter Kit with Manual" 
                   className="w-full h-full object-cover"
                 />
@@ -44,7 +44,7 @@ export default function Hero() {
               </>
             ) : (
               <video
-                src="/advertisement.mp4"
+                src="./advertisement.mp4"
                 className="w-full h-full"
                 controls
                 autoPlay

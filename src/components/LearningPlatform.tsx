@@ -32,8 +32,8 @@ const lessonsDetails: Record<number, LessonDetail> = {
   1: {
     id: 1,
     title: "Unboxing Your DBSK Kit",
-    duration: "8 min",
-    videoUrl: "/drone1.mp4",
+    duration: "3 min",
+    videoUrl: "./drone1.mp4",
     completed: true,
     description: "Welcome to DBSK! In this lesson, we'll unbox your drone kit and identify all the components. Learn proper handling techniques and how to organize your workspace for the assembly process.",
     learningPoints: [
@@ -269,7 +269,7 @@ export default function LearningPlatform() {
 
   const handleMarkComplete = () => {
     // Mark current lesson as complete
-    const updatedChapters = coursesData.map(chapter => ({
+    coursesData.map(chapter => ({
       ...chapter,
       lessons: chapter.lessons.map(lesson =>
         lesson.id === selectedLesson.id ? { ...lesson, completed: true } : lesson
