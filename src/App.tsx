@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Features from './components/Features'
 import HowItWorks from './components/HowItWorks'
+import Safety from './components/Safety'
 import Waitlist from './components/Waitlist'
 import LearningPlatform from './components/LearningPlatform'
 import Shop from './components/Shop'
@@ -19,6 +20,7 @@ function App() {
           <Navbar onNavigate={setCurrentPage} />
           <Hero />
           <Features />
+          <Safety />
           
           {/* Learning Platform CTA */}
           <div className="py-24 bg-gradient-to-br from-slate-50 via-blue-50/30 to-slate-50 border-y border-slate-200">

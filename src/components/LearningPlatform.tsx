@@ -64,7 +64,7 @@ const lessonsDetails: Record<number, LessonDetail> = {
     id: 3,
     title: "Understanding the Components",
     duration: "15 min",
-    videoUrl: "https://www.youtube.com/embed/UytSNlHw8J8",
+    videoUrl: "./how_vtx_works.mp4",
     completed: true,
     description: "Dive deep into each component of your quadcopter. Understand what each part does, how they work together, and why they're essential for flight.",
     learningPoints: [
@@ -465,12 +465,12 @@ export default function LearningPlatform({ onNavigate }: LearningPlatformProps) 
               </div>
 
               {/* Safety Notice */}
-              <div className="mt-4 bg-amber-50 border-l-4 border-amber-500 p-4 rounded">
-                <div className="flex items-start gap-2">
-                  <svg className="w-5 h-5 text-amber-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="mt-4 bg-gradient-to-r from-yellow-50 to-amber-50 border-l-4 border-yellow-500 p-5 rounded-lg shadow-md">
+                <div className="flex items-start gap-3">
+                  <svg className="w-6 h-6 text-yellow-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                   </svg>
-                  <p className="text-sm text-amber-800">
+                  <p className="text-sm text-amber-900">
                     <strong>Safety First:</strong> Always ensure your workspace is clear and follow proper handling procedures when working with electronic components.
                   </p>
                 </div>

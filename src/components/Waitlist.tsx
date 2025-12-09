@@ -13,11 +13,10 @@ export default function Waitlist() {
     <div id="waitlist" className="bg-brand-dark py-24 relative overflow-hidden">
       <div className="absolute top-0 left-0 -ml-20 -mt-20 w-64 h-64 rounded-full bg-brand-blue opacity-10 blur-3xl"></div>
       
-      <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
+      <div className="max-w-4xl mx-auto px-4 relative z-10">
+        <p className="text-slate-400 mb-8 text-lg text-center">
         <h2 className="text-3xl font-bold text-white mb-4">Join Europe's Robotics Education Revolution</h2>
-        <p className="text-slate-400 mb-8 text-lg">
-          We're piloting with students at Maastricht University to develop the most accessible entry point into drone and robotics engineering. <br />
-          Perfect for schools, universities, and self-learners. Join the waitlist for <strong>20% off</strong> and help build Europe's technical future.
+          Perfect for schools, universities, and self-learners. Join the waitlist for <strong>20% off</strong> and help build Europe's technical future.We're piloting with students at Maastricht University to develop the most accessible entry point into drone and robotics engineering. 
         </p>
         
         <form 

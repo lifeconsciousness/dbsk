@@ -22,7 +22,7 @@ const products: Product[] = [
     price: 149.99,
     image: './dron kit tech.jpg',
     description: 'The complete modular drone building experience. Includes frame, motors, flight controller, and access to the learning app.',
-    features: ['No Soldering Required', 'Includes Battery & Charger'],
+    features: ['No Soldering Required', 'Includes Protective Glasses, Battery & Charger'],
     badge: 'Best Seller'
   },
   {
@@ -31,7 +31,7 @@ const products: Product[] = [
     price: 1250.00,
     image: './unnamed-2.jpg',
     description: "The ultimate STEM solution. 10 complete kits plus a comprehensive teacher's guide and lesson plans.",
-    features: ['10x Drone Kits', "Teacher Curriculum Guide", 'Spare Parts Box Included'],
+    features: ['10x Drone Kits', "10x Protective Glasses", "Teacher Curriculum Guide", 'Spare Parts Box Included'],
     ribbonLabel: 'SCHOOLS'
   },
   {
