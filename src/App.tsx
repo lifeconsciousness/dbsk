@@ -20,8 +20,7 @@ function App() {
           <Navbar onNavigate={setCurrentPage} />
           <Hero />
           <Features />
-          <Safety />
-          
+
           {/* Learning Platform CTA */}
           <div className="py-24 bg-gradient-to-br from-slate-50 via-blue-50/30 to-slate-50 border-y border-slate-200">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -44,6 +43,9 @@ function App() {
               </div>
             </div>
           </div>
+          
+          <Safety />
+          
           
           <HowItWorks />
           {/* <Sustainability /> */}

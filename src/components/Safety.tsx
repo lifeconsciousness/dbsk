@@ -45,8 +45,8 @@ export default function Safety() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
               </svg>
             </div>
-            <h3 className="text-xl font-bold text-brand-dark mb-2">Protective Glasses Included</h3>
-            <p className="text-slate-600">Every kit comes with safety glasses to protect students during assembly and flight operations, establishing good safety habits from day one.</p>
+            <h3 className="text-xl font-bold text-brand-dark mb-2">Safety Equipment Included</h3>
+            <p className="text-slate-600">Every kit comes with safety glasses to protect students during assembly and flight operations, plus a fireproof battery storage box for safe LiPo charging and storage.</p>
           </div>
 
           {/* Regulations Education */}
